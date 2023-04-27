@@ -30,7 +30,7 @@ void PrendeYApagaLed(int led1, int led2, int tiempo)
   digitalWrite(led2, LOW);
 }
 
-## :robot: Link al proyecto
+##
 - [proyecto]([https://www.tinkercad.com/things/aOYiibnDjWu](https://www.tinkercad.com/things/4hqqzI3EiDb-dojo-1/editel?sharecode=gpyk42oPPJ1lyB9s_BP6yyfTXBTfh0kuYhUXUeBt89Y))
 
 
