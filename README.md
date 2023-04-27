@@ -3,49 +3,38 @@
 
 
 ## Integrantes 
-- Esteban Marcelo Quiroz  
+- Campos Tomás
+- Atoche Luis
+- Escobar Rodrigo
+- Tomas Blanco Rivas
 
 
-## Proyecto: Contador binario.
+## Proyecto: Semáforo
 ![Tinkercad](./img/ContadorBinario.png)
 
 
 ## Descripción
-En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
+Es un semaforo con 2 leds de cada color. En el cual el color amarillo y el rojo realizan un sonido para alertar
+a personas no videntes
 
 ## Función principal
-Esta funcion se encarga de encender y apagar los leds.
-
-B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
-
-(Breve explicación de la función)
+Esta funcion se encarga de encender y apagar el buzzer
 
 ~~~ C (lenguaje en el que esta escrito)
-void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
+void PrendeYApagaLed(int led1, int led2, int tiempo)
 {
-  digitalWrite(B3,estado3);
-  digitalWrite(B2,estado2);
-  digitalWrite(B1,estado1);
-  digitalWrite(B0,estado0);
+  digitalWrite(led1, HIGH);
+  digitalWrite(led2, HIGH);
+  delay(tiempo);
+  digitalWrite(led1, LOW);
+  digitalWrite(led2, LOW);
 }
-~~~
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/aOYiibnDjWu)
-## :tv: Link al video del proceso
-- [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
+- [proyecto]([https://www.tinkercad.com/things/aOYiibnDjWu](https://www.tinkercad.com/things/4hqqzI3EiDb-dojo-1/editel?sharecode=gpyk42oPPJ1lyB9s_BP6yyfTXBTfh0kuYhUXUeBt89Y))
+
 
 ---
-### Fuentes
-- [Consejos para documentar](https://www.sohamkamani.com/how-to-write-good-documentation/#architecture-documentation).
-
-- [Lenguaje Markdown](https://markdown.es/sintaxis-markdown/#linkauto).
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-- [Tutorial](https://www.youtube.com/watch?v=oxaH9CFpeEE).
-
-- [Emojis](https://gist.github.com/rxaviers/7360908).
 
 ---
 
