@@ -1,4 +1,4 @@
-# Ejemplo Documentación Dojos
+# Documentación Dojo 1
 ![Tinkercad](./img/ArduinoTinkercad.jpg)
 
 
